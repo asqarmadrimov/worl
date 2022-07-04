@@ -1,0 +1,49 @@
+.intro__list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.intro__item {
+  max-width: 280px;
+  margin-left: -40px;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgb(235, 231, 231);
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: 0.5s
+}
+
+.intro__item:hover {
+  box-shadow: 3px 3px 3px 3px rgb(124, 120, 120);
+}
+
+.intro__item + .intro__item {
+  margin-left: 50px;
+}
+
+.intro__item-text {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.population {
+  margin-left: 10px;
+  font-size: 17px;
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+}
+
+.region {
+  margin-left: 10px;
+  font-size: 17px;
+  margin: 2px 0px 0px 0px;
+  padding: 0px; 
+}
+
+.capitel {
+  margin-left: 10px;
+  font-size: 17px;
+  margin: 2px 0px 0px 0px;
+  padding: 0px;
+}
